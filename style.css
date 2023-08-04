@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+    }
+ 
+.container{
+    
+    width: 1342px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    border: 1px solid grey;
+    background-color: grey;
+   
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+   
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: rgb(157, 3, 3);
+	
+}
+nav:hover{
+    background: rgb(10, 8, 50);
+    
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: whitesmoke;
+    
+}
+nav .logo img  {
+    width: 60px;
+    margin-right: 10px; 
+}
+
+
+.slide-left{
+	animation: slideleft 1s linear forwards;
+}
+
+@keyframes slideleft{
+	0%{
+		transform: translate(100px);
+		opacity: 0;
+	}
+	100%{
+		transform: translate(0px);
+		opacity: 1px;
+	}
+}
+p.slide-left{
+	animation-delay: 1s;
+}
+
+.primaryButton{
+    background-color: rgb(255, 255, 255);
+    color: orangered;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.links{
+    color: whitesmoke;
+}
+.links:hover{
+    color: orangered;
+    transition: all 0.9s;
+}
+.primaryButton:hover{
+    cursor: pointer;
+    color: orangered;
+    border: 1px solid rgb(10, 8, 50);
+    
+}
+/*Navbar ended here*/
+/*Hero bar started here*/
+#home{
+    display: flex;
+  height: 100vh;
+    color: orangered;
+    background-color:rgb(2, 44, 44) ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.name{
+    font-size: 75px;
+}
+
+
+.title{
+    font-size: 20px;
+    
+}
+.paragraph{
+    font-size: 25px;
+}
+#home .button1{
+    
+     color: whitesmoke;
+     background-color: orangered;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    padding-right: 20px;
+    }
+.button2{
+   
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(225, 42, 6);
+}
+#about{
+  display: flex;
+  flex-direction: row; 
+  gap: 55px;
+  background-color:rgb(2, 44, 44) ;
+
+  
+}
+.pic{
+    margin: 50px 10px 0px 60px;
+    
+    
+}
+.img2{
+    
+    
+    border-radius: 50px;
+}
+#aboutcontent h1{
+    font-size: 40px;
+    padding-top: 30px;
+}
+#aboutcontent p{
+    flex-wrap: wrap;
+    padding-top: 35px;
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 85%;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+     background-color:rgb(2, 44, 44) ;
+    
+  }
+  .cont{
+    background-color:rgb(2, 44, 44) ;
+    text-align: center;
+    font-size: 45px;
+    font-weight: light;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+.card{
+    display: flex;
+    flex-direction: column;
+    color: rgb(199, 0, 0);
+    border: 2px solid rgb(254, 3, 3);
+    height:fit-content;
+    width: fit-content;
+    background: rgb(85, 85, 85);
+    border-radius: 10px;
+    
+  }
+.Buttons{
+    
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+    
+}
+.naruto{
+    background-color: aqua;
+    padding: 10px;
+
+}
+.hems{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+}
+.neon{
+    text-align: center;
+   padding: 50px;
+   background-color:rgb(2, 44, 44) ;
+}
+.neon h1{
+    font-size:55px;
+}
+
+.neon p{
+    font-size: 30px;
+    padding: 20px;
+}
+.bi{
+    color: brown; 
+    font-size: 40px;
+    padding: 10px;
+}
